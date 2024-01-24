@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+  <div class="mainbox">
+      <div class="innerbox">
+        <header>
+        <div class="task"><i class="fi fi-rr-window-minimize"></i>&nbsp;
+          <i class="fi fi-rr-cross-small"></i>
+        </div>
+        <p>Recordings</p>
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="btn">
+          <button style="background-color: lightgreen; cursor: pointer;">          <i class="fi fi-ss-play" onclick="watchstart()">Start</i>
+          </button>
+          <button style="background-color: red; cursor: pointer;">          <i class="fi fi-ss-stop" onclick="watchstop()">stop</i>
+          </button>
+<button style="background-color: lightyellow; cursor: pointer;">          <i class="fi fi-br-rotate-right" onclick="watchreset()">Reset</i>
+</button>
+        </div>
+        </header>
+          <footer>
+              <div class="endline"><i class="fi fi-rr-pencil">Draw</i>
+              </div>
+
+              <div class="endline"><i class="fi fi-rr-zoom-in"></i>
+              <i class="fi fi-rr-zoom-out">x1</i>
+              </div>
+            <div class="endline">
+              <i class="fi fi-ss-location-dot-slash"></i>
+              <i class="fi fi-ts-circle-microphone"></i>
+              <i class="fi fi-tr-volume-mute"></i>
+              </div>
+          </footer>
+      </div>
+  </div>
+  <script src="./index.js"></script>  
+</body>
+</html>

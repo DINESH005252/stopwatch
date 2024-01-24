@@ -1,0 +1,61 @@
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox {
+    max-width: 100%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.innerbox {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+}
+
+.innerbox p, .innerbox h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task {
+    text-align: end;
+    font-size: 20px;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: rgb(237, 226, 226);
+}
+
+.endline {
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+}
